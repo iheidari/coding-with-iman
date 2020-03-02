@@ -1,0 +1,22 @@
+html {
+  background-color: dimgrey;
+}
+body {
+  width: 800px;
+  margin: 0px auto;
+  padding: 15px 50px;
+  background-color: lightblue;
+  color: black;
+}
+
+#part1 {
+  font-family: "Courier New";
+}
+
+#part2 {
+  font-family: "Lucida Sans";
+}
+
+#part3 {
+  font-family: Tahoma;
+}
