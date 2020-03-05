@@ -14,11 +14,8 @@
       li {
         list-style: none;
       }
-      input:invalid {
-        background-color: red;
-      }
-      form li + li {
-        margin-top: 1em;
+      form li {
+        margin-top: 16px;
       }
       label {
         /* Uniform size & alignment */
@@ -31,7 +28,7 @@
       select {
         /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
-        font: 1em sans-serif;
+        font: 16px sans-serif;
 
         /* Uniform text field size */
         width: 300px;
@@ -43,12 +40,7 @@
       textarea {
         height: 120px;
       }
-      input:focus,
-      textarea:focus {
-        /* Additional highlight for focused elements */
-        border-color: rgb(36, 36, 36);
-      }
-      .button {
+      button {
         text-align: right;
       }
     </style>
@@ -78,7 +70,7 @@
             <option value="other">Other</option>
           </select>
         </li>
-        <li class="button">
+        <li>
           <button type="submit">Send your message</button>
           <button type="reset">Reset</button>
         </li>
